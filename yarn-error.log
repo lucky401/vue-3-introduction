@@ -1,0 +1,45 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn
+
+PATH: 
+  /usr/local/sbin:/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Versions/3.7/bin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Library/Apple/usr/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/Users/lucky404/opt/anaconda3/condabin:/Users/lucky404/Library/Android/sdk/emulator:/Users/lucky404/Library/Android/sdk/tools:/Users/lucky404/Library/Android/sdk/tools/bin:/Users/lucky404/Library/Android/sdk/platform-tools:/Users/lucky404/develop/flutter/bin:/Users/lucky404/.composer/vendor/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.16.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/lucky404/Develop/ppt/vue-3-introduction-by-lucky/package.json: Unexpected token } in JSON at position 322
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "private": true,
+    "scripts": {
+      "dev": "slidev --open",
+      "build": "slidev build --base /talks/vue-3-introduction-by-lucky/",
+      "export": "slidev export"
+    },
+    "dependencies": {
+      "@slidev/cli": "^0.15.0",
+      "@slidev/theme-default": "*",
+      "@slidev/theme-seriph": "*",
+      "playwright-chromium": "*",
+    },
+    "name": "vue-3-introduction-by-lucky"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
